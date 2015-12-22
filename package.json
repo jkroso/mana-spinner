@@ -1,0 +1,18 @@
+{
+  "name": "mana-spinner",
+  "version": "0.0.0",
+  "description": "A loading animation",
+  "keywords": ["mana","loading","spinner"],
+  "dependencies": {
+    "mana": "jkroso/mana",
+    "easy-style": "1"
+  },
+  "devDependencies": {
+    "serve": "jkroso/serve"
+  },
+  "transpile": [["*.js", "!sourcegraph/babel->js", {"stage": 0}]],
+  "repository": "git://github.com/jkroso/mana-spinner.git",
+  "author": "Jake Rosoman",
+  "files": ["index.js"],
+  "license": "MIT"
+}
