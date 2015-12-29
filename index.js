@@ -15,6 +15,11 @@ const className = style({
       to:    {transform: 'scaleY(1.0)'}
     }),
     animation: '1s infinite cubic-bezier(.2,.68,.18,1.08)',
+    '&:nth-child(2)': {animationDelay:'090ms'},
+    '&:nth-child(3)': {animationDelay:'180ms'},
+    '&:nth-child(4)': {animationDelay:'270ms'},
+    '&:nth-child(5)': {animationDelay:'360ms'},
+    '&:nth-child(6)': {animationDelay:'450ms'},
     backgroundColor: 'rgba(0,0,0,0.3)',
     display: 'inline-block',
     borderRadius: '2px',
@@ -24,10 +29,4 @@ const className = style({
   }
 })
 
-export default <div className>
-  <div style={{animationDelay:'000ms'}}/>
-  <div style={{animationDelay:'090ms'}}/>
-  <div style={{animationDelay:'180ms'}}/>
-  <div style={{animationDelay:'270ms'}}/>
-  <div style={{animationDelay:'360ms'}}/>
-</div>
+export default <div className>{new Array(6).fill(<div/>)}</div>
