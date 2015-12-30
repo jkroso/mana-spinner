@@ -25,7 +25,7 @@ const className = style({
     '&:nth-child(6)': {animationDelay:'450ms'},
     backgroundColor: 'rgba(0,0,0,0.3)',
     borderRadius: '2px',
-    width: '8%'
+    width: '10%'
   }
 })
 
