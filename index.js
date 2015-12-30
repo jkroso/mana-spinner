@@ -23,7 +23,7 @@ const className = style({
     '&:nth-child(4)': {animationDelay:'270ms'},
     '&:nth-child(5)': {animationDelay:'360ms'},
     '&:nth-child(6)': {animationDelay:'450ms'},
-    backgroundColor: 'rgba(0,0,0,0.3)',
+    backgroundColor: 'rgba(0,0,0,0.5)',
     borderRadius: '2px',
     width: '10%'
   }
