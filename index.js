@@ -3,11 +3,14 @@ import {JSX} from 'mana'
 
 const className = style({
   position: 'absolute',
-  height: '30px',
   top: '50%',
   left: '50%',
-  marginLeft: '-20px',
+  height: '30px',
+  width: '50px',
+  marginLeft: '-25px',
   marginTop: '-15px',
+  display: 'flex',
+  justifyContent: 'space-between',
   div: {
     animationName: keyframe({
       from:  {transform: 'scaleY(1.0)'},
@@ -21,11 +24,8 @@ const className = style({
     '&:nth-child(5)': {animationDelay:'360ms'},
     '&:nth-child(6)': {animationDelay:'450ms'},
     backgroundColor: 'rgba(0,0,0,0.3)',
-    display: 'inline-block',
     borderRadius: '2px',
-    height: '100%',
-    margin: '2px',
-    width: '4px'
+    width: '8%'
   }
 })
 
